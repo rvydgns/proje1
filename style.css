@@ -1,0 +1,100 @@
+body {
+    font-family: 'Roboto'f;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    line-height: 1.5;
+    
+}
+
+
+header {
+    background-image: url('fyodor.jpg');
+    color: #fff;
+    text-align: center;
+    padding: 100px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#headerContent {
+    background-color: rgba(0, 0, 0, 0.338);
+    padding: 20px;
+    display: inline-block;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+header h2 {
+    font-size: 20px;
+    color: #e0e0e0;
+    margin-top: 0;
+}
+
+#kitapBilgileri {
+    flex: 1;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+#kitapBilgileri p {
+    color: #ffffff;
+    line-height: 1.5;
+}
+
+.content-container {
+    display: flex;
+}
+
+#kitapBilgileri {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#kitapBilgileri h1 {
+    color: #333;
+}
+
+#kitapBilgileri p {
+    color: #555;
+    line-height: 1.5;
+}
+
+#kitapResim {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    background-color: #e0e0e0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#kitapResim img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+#kitapResim:hover img {
+    transform: scale(1.07);
+}
+
+h1, p {
+    margin-bottom: 10px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
